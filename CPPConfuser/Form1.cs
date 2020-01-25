@@ -18,7 +18,7 @@ namespace CPPConfuser
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            string rule = "int|long|string|using|namespace|std|cout|cin|bool|break|case|catch|char|class|const|continue|default|delete|do|double|else|false|float|for|if|new|return|short|sizeof";
+            string rule = "int|long|string|using|namespace|cout|cin|bool|break|case|catch|char|class|const|continue|default|delete|do|double|else|false|float|for|if|new|return|short|sizeof";
             Confuser confuser = new Confuser(rule);
             textBox2.Text = confuser.DefineConfuse(textBox1.Text);
         }
